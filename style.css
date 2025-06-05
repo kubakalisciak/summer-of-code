@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    color: #2e282a;
+    background-color: #fdecef;
+}
+.header {
+    background-color: #17bebb;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+h1 {
+    font-family: 'Fredoka', sans-serif;
+    color: #f4b148
+}
+a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #e63946
+}
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 15px;
+}
+.links a {
+    color: #f4b148;
+    font-size: 18px;
+}
+.footer {
+    background-color: #2e282a;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #fdecef;
+    text-align: center;
+}
+.content {
+    flex-grow: 1;
+}
+
+/* f4b148-17bebb-2e282a-fdecef-e63946 */
+/* yellow-teal-black-white-red */
