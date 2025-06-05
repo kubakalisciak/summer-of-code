@@ -50,7 +50,33 @@ a {
 }
 .content {
     flex-grow: 1;
+    padding: 10px;
+    /* TODO: modify w/ flex to accomodate more cards and their wrapup */
 }
+.project {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #e63946;
+    width: 400px;
 
+}
+.project img {
+    width: 400px;
+    border-radius: 10px;
+}
+span {
+    padding: 4px;
+    border-radius: 4px;
+}
+.tag-date {
+    background-color: #acaaaa;
+    color: #2e282a;
+}
+.tag-html {
+    color: #ff0a53;
+    background-color: #ff99ac;
+}
 /* f4b148-17bebb-2e282a-fdecef-e63946 */
 /* yellow-teal-black-white-red */
