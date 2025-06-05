@@ -55,3 +55,8 @@ button {
 	cursor: pointer;
 	border-radius: 5px;
 }
+.footer {
+	background-color: #2b2a33;
+	text-align: center;
+	padding: 5px;
+}
