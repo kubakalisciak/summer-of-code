@@ -60,3 +60,8 @@ button {
 	text-align: center;
 	padding: 5px;
 }
+.footer a {
+	color: #fff;
+	text-decoration: underline;
+	cursor: pointer;
+}
